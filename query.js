@@ -53,7 +53,7 @@ function buyStuff() {
             let id = res.option.split('.');
             id = id[0] - 1;
             // NONE LEFT IN STOCK
-            if (data[id].stock_quantity === '0') {
+            if (data[id].stock_quantity == 0) {
                 console.log('\nSorry the item you are trying to purchase is no longer in stock.');
                 buyStuff();
             }
