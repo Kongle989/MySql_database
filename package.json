@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Kongle989/bamazon/issues"
   },
-  "homepage": "https://github.com/Kongle989/bamazon#readme"
+  "homepage": "https://github.com/Kongle989/bamazon#readme",
+  "dependencies": {
+    "inquirer": "^3.0.6"
+  }
 }
